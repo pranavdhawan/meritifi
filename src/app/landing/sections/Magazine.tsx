@@ -4,7 +4,7 @@ export function Magazine() {
   return (
     <section id="magazine" className="w-[1440px] max-w-full mx-auto">
       <h2 className="ds-heading-2 text-center pt-[52px]">Meritifi magazine</h2>
-      <div className="relative mt-[161px] px-[79.5px] max-sm:px-6 min-h-[822px]">
+      <div className="relative mt-[161px] px-[79.5px] max-sm:px-6 h-[822px] max-sm:h-auto">
         <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_12px_22.85px_rgba(18,17,39,0.12)] bg-white transition-all duration-200 hover:shadow-[0px_18px_32px_rgba(18,17,39,0.16)] hover:-translate-y-0.5 max-sm:static max-sm:w-full max-sm:h-auto">
           <Image src="/assets/mag-left.png" alt="feature" width={411} height={303} className="rounded-t-[22.85px] object-cover w-full h-auto" />
           <div className="px-[18.28px] pt-[10px]">
@@ -29,7 +29,7 @@ export function Magazine() {
             <h3 className="px-[22.08px] mt-[55px] text-[22.08px] font-bold">Offline or Online: What Works Best for Today’s Learners?</h3>
             <div className="px-[22.08px] mt-[50px] flex items-center gap-2 text-[#382E53]">
               <span className="text-[11.38px]">Read more</span>
-              <span className="inline-block text-[14px] transition-transform duration-200 group-hover:translate-x-1">→</span>
+              <span className="inline-block text-[14px] transition-transform duration-200 group-hover:translate-x-1">»</span>
             </div>
           </div>
           <div className="absolute left-0 top-[316.55px] w-[412.25px] h-[274.22px] rounded-[18.4px] bg-[#F3E2C1] max-sm:static max-sm:w-full max-sm:mt-6">
