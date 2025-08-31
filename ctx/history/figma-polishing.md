@@ -17,11 +17,11 @@ Process
 - [x] Dashboard bubbles: exact positions (416px/ -4px) and shadows
 - [x] Tutors cards: top image corner radius 60; divider opacity 0.7
 - [x] Tutors chips: tiny icon alignments and letter-spacing (-1%)
-- [ ] Magazine left card: shadow strength (22.85 blur) and label type weight
+- [x] Magazine left card: shadow strength (22.85 blur) and label type weight
 - [x] Magazine center image: size 294x299 precisely; overlay alpha
 - [x] About card: arrow icon size (34.97), margins; text sizes (22.08)
 - [x] Success cards: tile opacity 40%, corner radius 10.8
-- [ ] College right image container radii 130.27/21.54/21.63 precise
+- [x] College right image container radii 130.27/21.54/21.63 precise
 - [x] Footer: gradient image scale/position; “Information” casing and opacity
 
 ## Interactions/animations to add

@@ -101,13 +101,41 @@ export default function Landing() {
           >
             {/* purple dots and lines per figma */}
             <div className="absolute left-[21.75px] top-[54.75px]">
-              <svg width="2" height="63" viewBox="0 0 2 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line x1="1" y1="0" x2="1" y2="63" stroke="#868686" strokeWidth="1.5" strokeDasharray="6 6" />
+              <svg
+                width="2"
+                height="63"
+                viewBox="0 0 2 63"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line
+                  x1="1"
+                  y1="0"
+                  x2="1"
+                  y2="63"
+                  stroke="#868686"
+                  strokeWidth="1.5"
+                  strokeDasharray="6 6"
+                />
               </svg>
             </div>
             <div className="absolute left-[21.75px] top-[178.5px]">
-              <svg width="2" height="65.25" viewBox="0 0 2 65.25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line x1="1" y1="0" x2="1" y2="65.25" stroke="#868686" strokeWidth="1.5" strokeDasharray="6 6" />
+              <svg
+                width="2"
+                height="65.25"
+                viewBox="0 0 2 65.25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line
+                  x1="1"
+                  y1="0"
+                  x2="1"
+                  y2="65.25"
+                  stroke="#868686"
+                  strokeWidth="1.5"
+                  strokeDasharray="6 6"
+                />
               </svg>
             </div>
             <div className="absolute left-[42px] top-[45px] w-[240px] h-[297.5px]">
@@ -294,12 +322,16 @@ export default function Landing() {
                 <div className="w-px h-[19.53px] bg-black/70" />
                 <div className="flex items-center gap-1">
                   <div className="w-[13.22px] h-[8.5px] bg-[#644BFC]" />
-                  <span className="text-[10.87px] tracking-[-0.01em]">{tutor.mode}</span>
+                  <span className="text-[10.87px] tracking-[-0.01em]">
+                    {tutor.mode}
+                  </span>
                 </div>
                 <div className="w-px h-[19.53px] bg-black/70" />
                 <div className="flex items-center gap-1">
                   <div className="w-[13.05px] h-[13.05px] bg-[#644BFC]" />
-                  <span className="text-[10.87px] tracking-[-0.01em]">{tutor.area}</span>
+                  <span className="text-[10.87px] tracking-[-0.01em]">
+                    {tutor.area}
+                  </span>
                 </div>
               </div>
               <div className="absolute left-[36px] top-[273px] flex items-center gap-[11.3px]">
@@ -339,7 +371,7 @@ export default function Landing() {
         </h2>
         <div className="relative mt-[161px] px-[79.5px]">
           {/* feature card left */}
-          <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_22.85px_57.13px_rgba(18,17,39,0.08)] bg-white transition-shadow duration-200 hover:shadow-[0px_28px_64px_rgba(18,17,39,0.12)]">
+          <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_12px_22.85px_rgba(18,17,39,0.12)] bg-white transition-all duration-200 hover:shadow-[0px_18px_32px_rgba(18,17,39,0.16)] hover:-translate-y-0.5">
             <Image
               src="/assets/mag-left.png"
               alt="feature"
@@ -348,7 +380,7 @@ export default function Landing() {
               className="rounded-t-[22.85px] object-cover"
             />
             <div className="px-[18.28px] pt-[10px]">
-              <div className="text-[18.28px] text-[#464646]">ARTICLE</div>
+              <div className="text-[18.28px] text-[#464646] font-semibold">ARTICLE</div>
               <h3 className="mt-[42px] text-[22.85px] font-bold text-[#1A1A1A] leading-[1.4]">
                 Placerat sed pharetra interdum odio et tincidunt
               </h3>
@@ -386,7 +418,9 @@ export default function Landing() {
               </h3>
               <div className="px-[22.08px] mt-[50px] flex items-center gap-2 text-[#382E53]">
                 <span className="text-[11.38px]">Read more</span>
-                <span className="inline-block text-[14px] transition-transform duration-200 group-hover:translate-x-1">→</span>
+                <span className="inline-block text-[14px] transition-transform duration-200 group-hover:translate-x-1">
+                  →
+                </span>
               </div>
             </div>
             <div className="absolute left-0 top-[316.55px] w-[412.25px] h-[274.22px] rounded-[18.4px] bg-[#F3E2C1]">
