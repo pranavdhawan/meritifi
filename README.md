@@ -54,23 +54,26 @@ meritifi/
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd meritifi
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -80,7 +83,9 @@ npm run dev
 ## 🎯 Key Components
 
 ### Button Component
+
 A flexible button component with multiple variants:
+
 - `default` - Primary button
 - `outline` - Outlined button
 - `destructive` - Danger button
@@ -89,6 +94,7 @@ A flexible button component with multiple variants:
 - `link` - Link-style button
 
 ### Custom Fonts
+
 - **Balsamiq Sans**: Used for main headings and brand elements
 - **Plus Jakarta Sans**: Used for section headings and important text
 - **Poppins**: Used for article titles and magazine content
@@ -97,20 +103,7 @@ A flexible button component with multiple variants:
 
 ## 🎨 Design System
 
-### Color Palette
-- **Primary**: Blue gradients (#3B82F6 to #8B5CF6)
-- **Secondary**: Yellow/Orange gradients (#F59E0B to #F97316)
-- **Accent**: Purple (#8B5CF6)
-- **Success**: Green (#10B981)
-- **Warning**: Yellow (#F59E0B)
-- **Error**: Red (#EF4444)
-
-### Typography Scale
-- **Hero**: 5xl-6xl (48px-60px)
-- **Section Headings**: 4xl (36px)
-- **Subheadings**: 3xl (30px)
-- **Body**: Base (16px)
-- **Small**: Sm (14px)
+See `ctx/Design_System.md` for the canonical design tokens, typography scale (desktop/mobile), button sizing (ALL CAPS), and usage guidelines.
 
 ## 📱 Responsive Breakpoints
 
@@ -121,29 +114,35 @@ A flexible button component with multiple variants:
 ## 🚀 Deployment
 
 ### Build for Production
+
 ```bash
 npm run build
 ```
 
 ### Start Production Server
+
 ```bash
 npm start
 ```
 
 ### Deploy to Vercel
+
 The project is optimized for Vercel deployment with Next.js 15.
 
 ## 🔧 Customization
 
 ### Adding New Sections
+
 1. Create a new section component in the main page
 2. Follow the existing pattern with proper semantic HTML
 3. Use the established color scheme and typography
 
 ### Modifying Colors
+
 Update the color variables in `tailwind.config.js` or use the existing color classes.
 
 ### Adding New Fonts
+
 1. Import the font in `globals.css`
 2. Create a new font class
 3. Apply to the desired elements
@@ -163,6 +162,7 @@ This project is licensed under the MIT License.
 ## 📞 Support
 
 For support or questions, please contact:
+
 - Email: info@meritifi.com
 - Phone: +1 (999) 999-99-99
 

@@ -52,13 +52,17 @@
 @layer base {
   body {
     @apply bg-background text-foreground;
-    font-family: var(--font-inter), sans-serif;
+    font-family: var(--font-lato), sans-serif;
   }
 }
 
 /* Custom font classes */
 .font-balsamiq {
   font-family: var(--font-balsamiq), cursive;
+}
+
+.font-lato {
+  font-family: var(--font-lato), sans-serif;
 }
 
 .font-plus-jakarta {
@@ -98,9 +102,12 @@ html {
 
 /* Custom animations */
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -116,4 +123,90 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+@layer utilities {
+  .ds-heading-1 {
+    @apply font-display text-ds-h1;
+  }
+
+  .ds-heading-2 {
+    @apply font-display text-ds-h2;
+  }
+
+  .ds-subheading {
+    @apply font-display text-ds-sub;
+  }
+
+  .ds-body-1 {
+    @apply font-sans text-ds-b1;
+  }
+
+  .ds-body-2 {
+    @apply font-sans text-ds-b2;
+  }
+
+  .ds-body-3 {
+    @apply font-sans text-ds-b3;
+  }
+
+  .ds-notes {
+    @apply font-sans text-ds-notes;
+  }
+
+  .ds-footer {
+    @apply font-sans text-ds-footer;
+  }
+
+  .ds-btn-1 {
+    font-size: theme(fontSize.ds-btn1[0]);
+    line-height: theme(fontSize.ds-btn1[1].lineHeight);
+    letter-spacing: theme(fontSize.ds-btn1[1].letterSpacing);
+  }
+
+  .ds-btn-2 {
+    font-size: theme(fontSize.ds-btn2[0]);
+    line-height: theme(fontSize.ds-btn2[1].lineHeight);
+    letter-spacing: theme(fontSize.ds-btn2[1].letterSpacing);
+  }
+
+  .ds-btn-3 {
+    font-size: theme(fontSize.ds-btn3[0]);
+    line-height: theme(fontSize.ds-btn3[1].lineHeight);
+    letter-spacing: theme(fontSize.ds-btn3[1].letterSpacing);
+  }
+
+  @media (max-width: 767px) {
+    .ds-heading-1 {
+      font-size: theme(fontSize.dsm-h1[0]);
+      line-height: theme(fontSize.dsm-h1[1].lineHeight);
+    }
+
+    .ds-heading-2 {
+      font-size: theme(fontSize.dsm-h2[0]);
+      line-height: theme(fontSize.dsm-h2[1].lineHeight);
+    }
+
+    .ds-btn-1 {
+      font-size: theme(fontSize.dsm-btn1[0]);
+      line-height: theme(fontSize.dsm-btn1[1].lineHeight);
+      letter-spacing: theme(fontSize.dsm-btn1[1].letterSpacing);
+    }
+
+    .ds-btn-2 {
+      font-size: theme(fontSize.dsm-btn2[0]);
+      line-height: theme(fontSize.dsm-btn2[1].lineHeight);
+      letter-spacing: theme(fontSize.dsm-btn2[1].letterSpacing);
+    }
+
+    .ds-text-1 {
+      font-size: theme(fontSize.dsm-text1[0]);
+      line-height: theme(fontSize.dsm-text1[1].lineHeight);
+    }
+
+    .ds-text-2 {
+      font-size: theme(fontSize.dsm-text2[0]);
+      line-height: theme(fontSize.dsm-text2[1].lineHeight);
+    }
+  }
 }
