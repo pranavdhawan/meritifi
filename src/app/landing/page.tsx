@@ -226,12 +226,12 @@ export default function Landing() {
             </div>
             {/* floating bubbles */}
             <div
-              className="absolute left-[42px] top-[416px] w-[126.79px] h-[126.79px] rounded-full shadow-[0px_7.35px_23.9px_rgba(0,0,0,0.08)]"
-              style={{ background: "#F48383" }}
+              className="absolute left-[42px] top-[416px] w-[126.79px] h-[126.79px] rounded-full shadow-[0px_7.35px_23.9px_rgba(0,0,0,0.08)] animate-float"
+              style={{ background: "#F48383", animationDuration: "5s" }}
             />
             <div
-              className="absolute left-[221px] top-[-4px] w-[141.37px] h-[141.97px] rounded-full shadow-[0px_8.31px_27.01px_rgba(0,0,0,0.08)]"
-              style={{ background: "#F1C76F" }}
+              className="absolute left-[221px] top-[-4px] w-[141.37px] h-[141.97px] rounded-full shadow-[0px_8.31px_27.01px_rgba(0,0,0,0.08)] animate-float"
+              style={{ background: "#F1C76F", animationDuration: "4s" }}
             />
             <div className="absolute left-[1312px] top-[84px] hidden" />
           </div>
@@ -370,7 +370,7 @@ export default function Landing() {
 
           {/* right column with about card */}
           <div className="absolute left-[79.5px] top-[161px] w-[1280px] h-[590.77px]">
-            <div className="absolute left-[434.33px] top-[316.55px] w-[403.05px] h-[274.22px] rounded-[18.4px] bg-[#E9F6FA] transition-shadow duration-200 hover:shadow-[0_12px_32px_rgba(0,0,0,0.1)]">
+            <div className="absolute left-[434.33px] top-[316.55px] w-[403.05px] h-[274.22px] rounded-[18.4px] bg-[#E9F6FA] transition-shadow duration-200 hover:shadow-[0_12px_32px_rgba(0,0,0,0.1)] group cursor-pointer select-none">
               <div className="flex items-center justify-between px-[17.48px] pt-[27.61px]">
                 <span className="text-[18.4px]">Explore our blogs</span>
                 <div className="w-[34.97px] h-[34.97px] bg-white rounded-full" />
@@ -380,7 +380,7 @@ export default function Landing() {
               </h3>
               <div className="px-[22.08px] mt-[50px] flex items-center gap-2 text-[#382E53]">
                 <span className="text-[11.38px]">Read more</span>
-                <div className="w-[17.07px] h-[17.07px]" />
+                <span className="inline-block text-[14px] transition-transform duration-200 group-hover:translate-x-1">→</span>
               </div>
             </div>
             <div className="absolute left-0 top-[316.55px] w-[412.25px] h-[274.22px] rounded-[18.4px] bg-[#F3E2C1]">
@@ -432,8 +432,14 @@ export default function Landing() {
       </section>
 
       {/* college search */}
-      <section id="college" className="w-[1440px] max-w-full mx-auto" style={{ height: 703 }}>
-        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[35px]">Find Your Perfect College</h2>
+      <section
+        id="college"
+        className="w-[1440px] max-w-full mx-auto"
+        style={{ height: 703 }}
+      >
+        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[35px]">
+          Find Your Perfect College
+        </h2>
         <div className="mt-[92px] flex gap-[44px] px-[148px]">
           {/* left filters */}
           <div className="w-[529px] flex flex-col gap-10">
@@ -452,36 +458,64 @@ export default function Landing() {
                 <div className="w-8 h-8" />
               </div>
             </div>
-            <button className="w-[220px] h-[60px] rounded-[10px] uppercase ds-btn-3 border-[2px]" style={{ borderColor: 'rgba(241,199,111,1)' }}>search now</button>
+            <button
+              className="w-[220px] h-[60px] rounded-[10px] uppercase ds-btn-3 border-[2px]"
+              style={{ borderColor: "rgba(241,199,111,1)" }}
+            >
+              search now
+            </button>
           </div>
           {/* right visuals */}
           <div className="relative w-[363.93px] h-[504px]">
             <div className="absolute left-0 bottom-0 w-full h-[179.57px] rounded-[20.25px] bg-[#E9F6FA] px-[22.75px] pt-[71.83px] text-center">
               <p className="text-[19.15px] leading-[1.2]">
-                Keep Your Learning Streak Strong! Search, compare and choose colleges best-suited for You.
+                Keep Your Learning Streak Strong! Search, compare and choose
+                colleges best-suited for You.
               </p>
             </div>
             <div className="absolute left-[21.55px] top-0 w-[321.05px] h-[371.12px] rounded-[130.27px_130.27px_21.54px_21.63px] overflow-hidden bg-[#921818]">
-              <Image src="/assets/college-right.png" alt="college" width={321} height={371} className="object-cover" />
+              <Image
+                src="/assets/college-right.png"
+                alt="college"
+                width={321}
+                height={371}
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
 
       {/* footer */}
-      <footer id="footer" className="w-[1440px] max-w-full mx-auto text-white" style={{ backgroundImage: 'url(/assets/footer-bg.png)', backgroundSize: 'cover' }}>
+      <footer
+        id="footer"
+        className="w-[1440px] max-w-full mx-auto text-white"
+        style={{
+          backgroundImage: "url(/assets/footer-bg.png)",
+          backgroundSize: "cover",
+        }}
+      >
         <div className="w-full px-10 pt-10">
           <div className="mx-10 rounded-[16px] bg-white/60 p-8 flex flex-col gap-24">
             <div className="flex gap-16">
               <div className="w-[347px] flex flex-col gap-2">
                 <div className="flex items-center gap-3">
-                  <Image src="/assets/logo.png" width={72} height={75} alt="logo" />
-                  <span className="font-display text-white text-[40px]">meritfi</span>
+                  <Image
+                    src="/assets/logo.png"
+                    width={72}
+                    height={75}
+                    alt="logo"
+                  />
+                  <span className="font-display text-white text-[40px]">
+                    meritfi
+                  </span>
                 </div>
               </div>
               <div className="w-[660px] flex gap-24">
                 <div className="flex flex-col gap-6">
-                  <span className="font-display uppercase tracking-[4%] opacity-60">Information</span>
+                  <span className="font-display uppercase tracking-[4%] opacity-60">
+                    Information
+                  </span>
                   <div className="flex gap-6">
                     <a>Home</a>
                     <a>about us</a>
@@ -492,7 +526,9 @@ export default function Landing() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-6">
-                  <span className="font-display uppercase tracking-[4%] opacity-60">follow us</span>
+                  <span className="font-display uppercase tracking-[4%] opacity-60">
+                    follow us
+                  </span>
                   <div className="flex gap-5">
                     <div className="w-[42.71px] h-[31.06px] bg-white" />
                     <div className="w-[31.06px] h-[31.06px] bg-white" />
@@ -513,7 +549,9 @@ export default function Landing() {
           </div>
         </div>
         <div className="flex items-center justify-center gap-[1215px] py-6">
-          <span className="text-white/90">Privacy policy | terms of use | refund policy</span>
+          <span className="text-white/90">
+            Privacy policy | terms of use | refund policy
+          </span>
           <span>© 2023 — Copyright</span>
         </div>
       </footer>

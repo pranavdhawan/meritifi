@@ -26,13 +26,13 @@ Process
 
 ## Interactions/animations to add
 
-- [ ] Header links: subtle underline grow on hover, active bold
-- [ ] CTAs: gradient shift on hover, soft outer glow (focus-visible ring)
-- [ ] Bubbles (hero/dashboard): slow float (3-5s), slight parallax on scroll
-- [ ] Cards: elevation increase on hover, translate-y-1, shadow-lg → xl
+- [x] Header links: subtle underline grow on hover, active bold
+- [x] CTAs: gradient shift on hover, soft outer glow (focus-visible ring)
+- [x] Bubbles (hero/dashboard): slow float (3-5s), slight parallax on scroll
+- [x] Cards: elevation increase on hover, translate-y-1, shadow-lg → xl
 - [ ] Magazine “Read more”: chevron nudge on hover
 - [ ] Tutors actions: outline button tint and filled button brightness pulse on hover
-- [ ] Smooth anchor scroll offset for fixed header (scroll-margin-top)
+- [x] Smooth anchor scroll offset for fixed header (scroll-margin-top)
 
 ## Responsive checklist
 
