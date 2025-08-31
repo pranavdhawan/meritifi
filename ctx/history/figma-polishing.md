@@ -22,7 +22,7 @@ Process
 - [x] About card: arrow icon size (34.97), margins; text sizes (22.08)
 - [x] Success cards: tile opacity 40%, corner radius 10.8
 - [ ] College right image container radii 130.27/21.54/21.63 precise
-- [ ] Footer: gradient image scale/position; “Information” casing and opacity
+- [x] Footer: gradient image scale/position; “Information” casing and opacity
 
 ## Interactions/animations to add
 

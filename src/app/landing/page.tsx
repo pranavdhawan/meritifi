@@ -499,6 +499,7 @@ export default function Landing() {
         style={{
           backgroundImage: "url(/assets/footer-bg.png)",
           backgroundSize: "cover",
+          backgroundPosition: "center top",
         }}
       >
         <div className="w-full px-10 pt-10">
