@@ -3,12 +3,12 @@
 import { useEffect, useState } from 'react'
 
 const LINKS = [
-  { id: 'hero', label: 'home' },
-  { id: 'how-it-works', label: 'about us' },
-  { id: 'dashboard', label: 'teacher dashboard' },
-  { id: 'dashboard', label: 'student dashboard' },
-  { id: 'magazine', label: 'magazine' },
-  { id: 'college', label: 'college hunt' },
+  { id: 'hero', label: 'Home' },
+  { id: 'how-it-works', label: 'About Us' },
+  { id: 'dashboard', label: 'Teacher Dashboard' },
+  { id: 'dashboard', label: 'Student Dashboard' },
+  { id: 'magazine', label: 'Magazine' },
+  { id: 'college', label: 'College Hunt' },
 ]
 
 export function LandingNav() {

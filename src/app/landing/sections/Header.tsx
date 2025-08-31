@@ -6,11 +6,16 @@ import { LandingNav } from '../Nav'
 export function Header() {
   return (
     <section className="w-[1440px] max-w-full mx-auto">
-      <header className="w-full h-[100px] flex items-center">
+      <header className="w-full h-[100px] flex items-center bg-transparent backdrop-blur-md sticky top-0 z-50">
         <div className="w-full flex items-center justify-between px-[140px] max-sm:px-6">
-          <div className="flex items-center gap-[40px]">
+          <div className="flex items-center">
             <Image src="/assets/logo.png" alt="Meritifi" width={72} height={75} priority />
-            <span className="font-display text-[40px] leading-[1.2]">meritfi</span>
+            {/* <span className="font-display text-[40px] leading-[1.2]">meritifi</span> */}
+            <div className="relative text-[40px] capitalize font-balsamiq-sans text-center text-[#644bfc]">
+              <span>me</span>
+              <span className="text-[#f1c76f]">ri</span>
+              <span>tfi</span>
+            </div>
           </div>
           <LandingNav />
           <button
