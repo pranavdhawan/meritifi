@@ -37,12 +37,12 @@ Process
 ## Responsive checklist
 
 - [ ] Apply mobile tokens: H1 34px, H2 22px, btn1 20, btn2 13, text 16/13
-- [ ] Header: stack nav under logo; hamburger optional
+- [x] Header: stack nav under logo; hamburger optional
 - [ ] Hero: image above text; maintain bottom radius scale
 - [ ] How It Works: stack cards; maintain dashed connectors
 - [ ] Dashboard: stack left over right; bubbles reposition to not overlap
 - [ ] Tutors: 1-per-row on mobile; spacing 16
-- [ ] Magazine: vertical stack; ensure images keep aspect
+- [x] Magazine: vertical stack; ensure images keep aspect
 - [ ] Success: 1-per-row; spacing 12
 - [ ] College: inputs full-width; image below; CTA full-width
 - [ ] Footer: collapse columns; center-aligned; spacing 16

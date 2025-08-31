@@ -36,7 +36,10 @@ export default function Landing() {
 
       {/* hero */}
       <section id="hero" className="w-[1440px] max-w-full mx-auto">
-        <div className="flex gap-5 max-sm:flex-col-reverse" style={{ height: 718 }}>
+        <div
+          className="flex gap-5 max-sm:flex-col-reverse"
+          style={{ height: 718 }}
+        >
           <div className="flex-1 pl-20 pt-[211px] max-sm:pt-8 max-sm:px-6">
             <h1 className="font-display text-[48px] leading-[1.2] text-black max-w-[621px]">
               Ever Wondered About Wonder? The Kind That Doesn’t Stop At

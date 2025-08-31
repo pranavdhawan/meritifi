@@ -101,6 +101,7 @@ html {
 }
 
 @layer utilities {
+
   /* Mobile layout helpers */
   @media (max-width: 767px) {
     .mobile-stack {
