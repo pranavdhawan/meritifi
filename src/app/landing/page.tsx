@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Landing() {
   return (
     <main className="min-h-screen bg-white">
@@ -6,11 +8,12 @@ export default function Landing() {
         <header className="w-full h-[100px] flex items-center">
           <div className="w-full flex items-center justify-between px-[140px]">
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="/assets/logo.png"
                 alt="Meritifi"
                 width={72}
                 height={75}
+                priority
               />
               <span className="font-display text-[40px] leading-[1.2]">
                 meritfi
@@ -57,10 +60,13 @@ export default function Landing() {
             </div>
           </div>
           <div className="w-[478.28px] ml-[80px] rounded-b-[229.39px] overflow-hidden">
-            <img
+            <Image
               src="/assets/hero-cover.png"
               alt="Hero"
-              className="w-full h-[718px] object-cover"
+              width={478}
+              height={718}
+              className="object-cover"
+              priority
             />
           </div>
         </div>
@@ -116,10 +122,12 @@ export default function Landing() {
               </div>
             </div>
             <div className="absolute right-0 top-0 w-[289.5px] h-[401.25px] rounded-[90px_90px_11.46px_11.46px] overflow-hidden">
-              <img
+              <Image
                 src="/assets/how-left.png"
                 alt="Student"
-                className="w-full h-full object-cover"
+                width={290}
+                height={401}
+                className="object-cover"
               />
             </div>
           </div>
@@ -127,10 +135,12 @@ export default function Landing() {
           {/* right (teachers) */}
           <div className="relative w-[604.5px] h-[401.25px] rounded-[15px] bg-white shadow-[0_0_0_1px_#C1C1C1]">
             <div className="absolute right-0 top-0 w-[289.5px] h-[401.25px] bg-[#FFDA8C] rounded-[90px_90px_11.25px_11.25px] overflow-hidden">
-              <img
+              <Image
                 src="/assets/how-right.png"
                 alt="Teacher"
-                className="w-full h-full object-cover"
+                width={290}
+                height={401}
+                className="object-cover"
               />
             </div>
             <div className="absolute left-[324px] top-[42px] w-[240px] h-[311.75px]">
@@ -192,10 +202,12 @@ export default function Landing() {
           </div>
           <div className="relative w-[340.77px] h-[388px]">
             <div className="absolute left-[15.18px] top-[39.64px] w-[309.56px] h-[309.56px] rounded-[156.04px_156.04px_156.04px_42px] overflow-hidden">
-              <img
+              <Image
                 src="/assets/dashboard-girl.png"
                 alt="dashboard"
-                className="w-full h-full object-cover"
+                width={310}
+                height={310}
+                className="object-cover"
               />
             </div>
             {/* floating bubbles */}
@@ -246,10 +258,12 @@ export default function Landing() {
               className="w-[316px] h-[384px] rounded-[60px_60px_12px_12px] shadow-[2px_2px_4px_rgba(0,0,0,0.25)] bg-[#FFF3FA] relative"
             >
               <div className="absolute left-[47px] -top-[28px] w-[221px] h-[196px] rounded-[60px] overflow-hidden bg-white">
-                <img
+                <Image
                   src="/assets/tutor-card-bg.png"
                   alt="tutor"
-                  className="w-full h-full object-cover"
+                  width={221}
+                  height={196}
+                  className="object-cover"
                 />
               </div>
               <div className="absolute left-[64px] top-[183px] ds-body-2 font-bold">
@@ -308,10 +322,12 @@ export default function Landing() {
         <div className="relative mt-[161px] px-[79.5px]">
           {/* feature card left */}
           <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_22.85px_57.13px_rgba(18,17,39,0.08)] bg-white">
-            <img
+            <Image
               src="/assets/mag-left.png"
               alt="feature"
-              className="w-[411.33px] h-[302.75px] rounded-t-[22.85px] object-cover"
+              width={411}
+              height={303}
+              className="rounded-t-[22.85px] object-cover"
             />
             <div className="px-[18.28px] pt-[10px]">
               <div className="text-[18.28px] text-[#464646]">ARTICLE</div>
@@ -327,10 +343,12 @@ export default function Landing() {
 
           {/* center card */}
           <div className="absolute left-[868.67px] top-[2.76px] w-[294.46px] h-[299.07px] rounded-[18.4px] bg-black/20 overflow-hidden">
-            <img
+            <Image
               src="/assets/mag-right.png"
               alt="right"
-              className="w-full h-full object-cover"
+              width={294}
+              height={299}
+              className="object-cover"
             />
           </div>
 
@@ -427,7 +445,7 @@ export default function Landing() {
               </p>
             </div>
             <div className="absolute left-[21.55px] top-0 w-[321.05px] h-[371.12px] rounded-[130.27px_130.27px_21.54px_21.63px] overflow-hidden bg-[#921818]">
-              <img src="/assets/college-right.png" alt="college" className="w-full h-full object-cover" />
+              <Image src="/assets/college-right.png" alt="college" width={321} height={371} className="object-cover" />
             </div>
           </div>
         </div>
@@ -440,7 +458,7 @@ export default function Landing() {
             <div className="flex gap-16">
               <div className="w-[347px] flex flex-col gap-2">
                 <div className="flex items-center gap-3">
-                  <img src="/assets/logo.png" width={72} height={75} alt="logo" />
+                  <Image src="/assets/logo.png" width={72} height={75} alt="logo" />
                   <span className="font-display text-white text-[40px]">meritfi</span>
                 </div>
               </div>
