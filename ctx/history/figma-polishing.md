@@ -12,7 +12,7 @@ Process
 - [x] Hero: H1 exact size (Figma shows 48), line-height; CTA border gradients
 - [ ] Hero right image: bottom radius matches 229.39px; x/y position
 - [ ] How It Works: dashed connector stroke length, gap, and color (#868686)
-- [ ] How It Works chips: icon sizes inside 45px pill; purple text color (#957CFF)
+- [x] How It Works chips: icon sizes inside 45px pill; purple text color (#957CFF)
 - [ ] Teacher card bg tone (#FFDA8C) and right radius values
 - [ ] Dashboard bubbles: exact positions (416px/ -4px) and shadows
 - [ ] Tutors cards: top image corner radius 60; divider opacity 0.7

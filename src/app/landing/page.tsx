@@ -147,7 +147,7 @@ export default function Landing() {
 
           {/* right (teachers) */}
           <div className="relative w-[604.5px] h-[401.25px] rounded-[15px] bg-white shadow-[0_0_0_1px_#C1C1C1]">
-            <div className="absolute right-0 top-0 w-[289.5px] h-[401.25px] bg-[#FFDA8C] rounded-[90px_90px_11.25px_11.25px] overflow-hidden">
+            <div className="absolute right-0 top-0 w-[289.5px] h-[401.25px] bg-[#FFDA8C] rounded-[90px_90px_11.25px_11.25px] overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
               <Image
                 src="/assets/how-right.png"
                 alt="Teacher"
@@ -272,7 +272,7 @@ export default function Landing() {
               key={tutor.name}
               className="w-[316px] h-[384px] rounded-[60px_60px_12px_12px] shadow-[2px_2px_4px_rgba(0,0,0,0.25)] bg-[#FFF3FA] relative"
             >
-              <div className="absolute left-[47px] -top-[28px] w-[221px] h-[196px] rounded-[60px] overflow-hidden bg-white">
+              <div className="absolute left-[47px] -top-[28px] w-[221px] h-[196px] rounded-[60px] overflow-hidden bg-white transition-transform duration-200 hover:-translate-y-0.5">
                 <Image
                   src="/assets/tutor-card-bg.png"
                   alt="tutor"
@@ -337,7 +337,7 @@ export default function Landing() {
         </h2>
         <div className="relative mt-[161px] px-[79.5px]">
           {/* feature card left */}
-          <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_22.85px_57.13px_rgba(18,17,39,0.08)] bg-white">
+          <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_22.85px_57.13px_rgba(18,17,39,0.08)] bg-white transition-shadow duration-200 hover:shadow-[0px_28px_64px_rgba(18,17,39,0.12)]">
             <Image
               src="/assets/mag-left.png"
               alt="feature"
@@ -370,7 +370,7 @@ export default function Landing() {
 
           {/* right column with about card */}
           <div className="absolute left-[79.5px] top-[161px] w-[1280px] h-[590.77px]">
-            <div className="absolute left-[434.33px] top-[316.55px] w-[403.05px] h-[274.22px] rounded-[18.4px] bg-[#E9F6FA]">
+            <div className="absolute left-[434.33px] top-[316.55px] w-[403.05px] h-[274.22px] rounded-[18.4px] bg-[#E9F6FA] transition-shadow duration-200 hover:shadow-[0_12px_32px_rgba(0,0,0,0.1)]">
               <div className="flex items-center justify-between px-[17.48px] pt-[27.61px]">
                 <span className="text-[18.4px]">Explore our blogs</span>
                 <div className="w-[34.97px] h-[34.97px] bg-white rounded-full" />
@@ -501,7 +501,7 @@ export default function Landing() {
                 </div>
               </div>
               <div className="flex-1 flex flex-col items-end gap-2">
-                <div className="flex items-center gap-2 px-[22px] py-[8px] border-2 rounded">
+                <div className="flex items-center gap-2 px-[22px] py-[8px] border-2 rounded transition-colors hover:bg-white/20">
                   <span>Contact Us</span>
                 </div>
                 <div className="flex flex-col">
