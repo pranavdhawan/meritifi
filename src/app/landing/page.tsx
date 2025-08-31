@@ -36,8 +36,8 @@ export default function Landing() {
 
       {/* hero */}
       <section id="hero" className="w-[1440px] max-w-full mx-auto">
-        <div className="flex gap-5" style={{ height: 718 }}>
-          <div className="flex-1 pl-20 pt-[211px]">
+        <div className="flex gap-5 max-sm:flex-col-reverse" style={{ height: 718 }}>
+          <div className="flex-1 pl-20 pt-[211px] max-sm:pt-8 max-sm:px-6">
             <h1 className="font-display text-[48px] leading-[1.2] text-black max-w-[621px]">
               Ever Wondered About Wonder? The Kind That Doesn’t Stop At
               Classrooms And Time-tables.
@@ -71,7 +71,7 @@ export default function Landing() {
               </button>
             </div>
           </div>
-          <div className="w-[478.28px] ml-[80px] rounded-b-[229.39px] overflow-hidden">
+          <div className="w-[478.28px] ml-[80px] rounded-b-[229.39px] overflow-hidden max-sm:ml-0 max-sm:self-center">
             <Image
               src="/assets/hero-cover.png"
               alt="Hero"
@@ -93,7 +93,7 @@ export default function Landing() {
         <h2 className="font-display text-[36px] leading-[1.2] text-center pt-[90px]">
           how it works
         </h2>
-        <div className="mt-[94px] px-[60px] flex gap-[67px]">
+        <div className="mt-[94px] px-[60px] flex gap-[67px] max-sm:flex-col">
           {/* left (students) */}
           <div
             className="relative w-[604.5px] h-[401.25px] rounded-[15px] backdrop-blur-[16px]"
@@ -225,7 +225,7 @@ export default function Landing() {
         <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[60px]">
           Stay Organized, Stay Wondering
         </h2>
-        <div className="mt-[92px] flex items-center gap-[110px] px-[136px]">
+        <div className="mt-[92px] flex items-center gap-[110px] px-[136px] max-sm:flex-col max-sm:px-6">
           <div className="flex flex-col gap-16 w-[519px]">
             <div className="flex flex-col gap-6">
               <h3 className="font-sans font-bold text-[32px] leading-[1.2]">
@@ -277,7 +277,7 @@ export default function Landing() {
         <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[60px]">
           Our Best Teachers, Your Best Mentors
         </h2>
-        <div className="mt-[140px] flex gap-[110px] px-[136px]">
+        <div className="mt-[140px] flex gap-[110px] px-[136px] max-sm:flex-col max-sm:px-6">
           {[
             {
               name: "Ashish Chanchalani",
@@ -369,7 +369,7 @@ export default function Landing() {
         <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[52px]">
           Meritifi magazine
         </h2>
-        <div className="relative mt-[161px] px-[79.5px]">
+        <div className="relative mt-[161px] px-[79.5px] max-sm:px-6">
           {/* feature card left */}
           <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_12px_22.85px_rgba(18,17,39,0.12)] bg-white transition-all duration-200 hover:shadow-[0px_18px_32px_rgba(18,17,39,0.16)] hover:-translate-y-0.5">
             <Image
@@ -380,7 +380,9 @@ export default function Landing() {
               className="rounded-t-[22.85px] object-cover"
             />
             <div className="px-[18.28px] pt-[10px]">
-              <div className="text-[18.28px] text-[#464646] font-semibold">ARTICLE</div>
+              <div className="text-[18.28px] text-[#464646] font-semibold">
+                ARTICLE
+              </div>
               <h3 className="mt-[42px] text-[22.85px] font-bold text-[#1A1A1A] leading-[1.4]">
                 Placerat sed pharetra interdum odio et tincidunt
               </h3>
@@ -446,7 +448,7 @@ export default function Landing() {
         <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[60px]">
           When you Make Merit Yours
         </h2>
-        <div className="mt-[60px] px-[80px] grid grid-cols-3 gap-6">
+        <div className="mt-[60px] px-[80px] grid grid-cols-3 gap-6 max-sm:grid-cols-1 max-sm:gap-3 max-sm:px-6">
           {[0, 1, 2, 3, 4, 5].map((i) => (
             <div key={i} className="bg-[#F5F2ED]/40 rounded-[10.8px] p-6">
               <div className="flex items-center gap-2 mb-4">
@@ -480,20 +482,20 @@ export default function Landing() {
         <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[35px]">
           Find Your Perfect College
         </h2>
-        <div className="mt-[92px] flex gap-[44px] px-[148px]">
+        <div className="mt-[92px] flex gap-[44px] px-[148px] max-sm:flex-col max-sm:px-6">
           {/* left filters */}
-          <div className="w-[529px] flex flex-col gap-10">
+          <div className="w-[529px] flex flex-col gap-10 max-sm:w-full">
             {/* selects row */}
             <div className="flex flex-col gap-6">
-              <div className="w-[434px] h-[80px] rounded-[26px] border border-[#C1C1C1] px-[27.4px] py-[22.86px] flex items-center justify-between">
+              <div className="w-[434px] h-[80px] rounded-[26px] border border-[#C1C1C1] px-[27.4px] py-[22.86px] flex items-center justify-between max-sm:w-full">
                 <span className="text-[22px]">college/university</span>
                 <div className="w-8 h-8" />
               </div>
-              <div className="w-[434px] h-[80px] rounded-[26px] border border-[#C1C1C1] px-[27.4px] py-[22.86px] flex items-center justify-between">
+              <div className="w-[434px] h-[80px] rounded-[26px] border border-[#C1C1C1] px-[27.4px] py-[22.86px] flex items-center justify-between max-sm:w-full">
                 <span className="text-[22px]">course type</span>
                 <div className="w-8 h-8" />
               </div>
-              <div className="w-[434px] h-[80px] rounded-[26px] border border-[#C1C1C1] px-[27.4px] py-[22.86px] flex items-center justify-between">
+              <div className="w-[434px] h-[80px] rounded-[26px] border border-[#C1C1C1] px-[27.4px] py-[22.86px] flex items-center justify-between max-sm:w-full">
                 <span className="text-[22px]">stream</span>
                 <div className="w-8 h-8" />
               </div>
@@ -506,7 +508,7 @@ export default function Landing() {
             </button>
           </div>
           {/* right visuals */}
-          <div className="relative w-[363.93px] h-[504px]">
+          <div className="relative w-[363.93px] h-[504px] max-sm:w-full">
             <div className="absolute left-0 bottom-0 w-full h-[179.57px] rounded-[20.25px] bg-[#E9F6FA] px-[22.75px] pt-[71.83px] text-center">
               <p className="text-[19.15px] leading-[1.2]">
                 Keep Your Learning Streak Strong! Search, compare and choose
@@ -536,9 +538,9 @@ export default function Landing() {
           backgroundPosition: "center top",
         }}
       >
-        <div className="w-full px-10 pt-10">
-          <div className="mx-10 rounded-[16px] bg-white/60 p-8 flex flex-col gap-24">
-            <div className="flex gap-16">
+        <div className="w-full px-10 pt-10 max-sm:px-6">
+          <div className="mx-10 rounded-[16px] bg-white/60 p-8 flex flex-col gap-24 max-sm:mx-0">
+            <div className="flex gap-16 max-sm:flex-col max-sm:gap-6">
               <div className="w-[347px] flex flex-col gap-2">
                 <div className="flex items-center gap-3">
                   <Image
@@ -552,7 +554,7 @@ export default function Landing() {
                   </span>
                 </div>
               </div>
-              <div className="w-[660px] flex gap-24">
+              <div className="w-[660px] flex gap-24 max-sm:w-full max-sm:gap-8">
                 <div className="flex flex-col gap-6">
                   <span className="font-display uppercase tracking-[4%] opacity-60">
                     Information
@@ -577,7 +579,7 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
-              <div className="flex-1 flex flex-col items-end gap-2">
+              <div className="flex-1 flex flex-col items-end gap-2 max-sm:items-start">
                 <div className="flex items-center gap-2 px-[22px] py-[8px] border-2 rounded transition-colors hover:bg-white/20">
                   <span>Contact Us</span>
                 </div>
@@ -589,11 +591,11 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-[1215px] py-6">
-          <span className="text-white/90">
+        <div className="flex items-center justify-center gap-[1215px] py-6 max-sm:justify-between max-sm:px-6">
+          <span className="text-white/90 max-sm:text-xs">
             Privacy policy | terms of use | refund policy
           </span>
-          <span>© 2023 — Copyright</span>
+          <span className="max-sm:text-xs">© 2023 — Copyright</span>
         </div>
       </footer>
 

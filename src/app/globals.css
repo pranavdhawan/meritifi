@@ -100,6 +100,32 @@ html {
   scroll-behavior: smooth;
 }
 
+@layer utilities {
+  /* Mobile layout helpers */
+  @media (max-width: 767px) {
+    .mobile-stack {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mobile-hidden {
+      display: none;
+    }
+
+    .mobile-full {
+      width: 100% !important;
+    }
+
+    .mobile-gap-16 {
+      gap: 16px !important;
+    }
+
+    .mobile-gap-12 {
+      gap: 12px !important;
+    }
+  }
+}
+
 /* Custom animations */
 @keyframes float {
 
