@@ -2,7 +2,12 @@
 
 Reference: `edtech[1]` → `landing page final`
 
+Process
+
+- Always re-open the Figma node for the section you’re touching and verify redlines before making edits.
+
 ## Visual differences to verify/fix
+
 - [ ] Header: logo wordmark spacing vs 40px spec; login button gradient stroke
 - [ ] Hero: H1 exact size (Figma shows 48), line-height; CTA border gradients
 - [ ] Hero right image: bottom radius matches 229.39px; x/y position
@@ -20,6 +25,7 @@ Reference: `edtech[1]` → `landing page final`
 - [ ] Footer: gradient image scale/position; “Information” casing and opacity
 
 ## Interactions/animations to add
+
 - [ ] Header links: subtle underline grow on hover, active bold
 - [ ] CTAs: gradient shift on hover, soft outer glow (focus-visible ring)
 - [ ] Bubbles (hero/dashboard): slow float (3-5s), slight parallax on scroll
@@ -29,6 +35,7 @@ Reference: `edtech[1]` → `landing page final`
 - [ ] Smooth anchor scroll offset for fixed header (scroll-margin-top)
 
 ## Responsive checklist
+
 - [ ] Apply mobile tokens: H1 34px, H2 22px, btn1 20, btn2 13, text 16/13
 - [ ] Header: stack nav under logo; hamburger optional
 - [ ] Hero: image above text; maintain bottom radius scale
@@ -41,5 +48,6 @@ Reference: `edtech[1]` → `landing page final`
 - [ ] Footer: collapse columns; center-aligned; spacing 16
 
 ## Notes
+
 - Keep effects subtle; prefer 150–250ms transitions, ease-out.
 - Use existing DS tokens; avoid ad-hoc pixel fonts in code.

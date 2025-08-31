@@ -40,8 +40,8 @@ export function LandingNav() {
         <a
           key={`${l.label}-${idx}`}
           href={`#${l.id}`}
-          className={`ds-body-2 transition-colors ${
-            active === l.id ? 'text-black font-semibold' : 'text-[#555] hover:text-black'
+          className={`ds-body-2 nav-underline transition-colors ${
+            active === l.id ? 'text-black font-semibold active' : 'text-[#555] hover:text-black'
           }`}
         >
           {l.label}

@@ -40,15 +40,15 @@ export default function Landing() {
               Meritifi is for all those who want a little more than enough.
             </p>
             <div className="mt-[37px] flex items-center gap-10">
-              <button className="h-[70px] px-[30px] rounded-[11.66px] backdrop-blur-[18.66px] border-[4px] border-[#F1C76F] uppercase ds-btn-2">
+              <button className="h-[70px] px-[30px] rounded-[11.66px] backdrop-blur-[18.66px] border-[4px] border-[#F1C76F] uppercase ds-btn-2 transition-shadow duration-200 hover:shadow-[0_0_24px_rgba(241,199,111,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F1C76F]">
                 Find a teacher
               </button>
-              <button className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-[#644BFC] uppercase ds-btn-2">
+              <button className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-[#644BFC] uppercase ds-btn-2 transition-shadow duration-200 hover:shadow-[0_0_24px_rgba(100,75,252,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#644BFC]">
                 start teaching
               </button>
             </div>
             <div className="mt-[37px]">
-              <button className="h-[60px] px-[26px] rounded-[10px] border-[2px] border-[#28B9CE] uppercase ds-btn-3">
+              <button className="h-[60px] px-[26px] rounded-[10px] border-[2px] border-[#28B9CE] uppercase ds-btn-3 transition-shadow duration-200 hover:shadow-[0_0_20px_rgba(40,185,206,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#28B9CE]">
                 Start a Chat
               </button>
             </div>
@@ -197,7 +197,7 @@ export default function Landing() {
             </div>
           </div>
           <div className="relative w-[340.77px] h-[388px]">
-            <div className="absolute left-[15.18px] top-[39.64px] w-[309.56px] h-[309.56px] rounded-[156.04px_156.04px_156.04px_42px] overflow-hidden">
+            <div className="absolute left-[15.18px] top-[39.64px] w-[309.56px] h-[309.56px] rounded-[156.04px_156.04px_156.04px_42px] overflow-hidden will-change-transform">
               <Image
                 src="/assets/dashboard-girl.png"
                 alt="dashboard"

@@ -209,4 +209,31 @@ html {
       line-height: theme(fontSize.dsm-text2[1].lineHeight);
     }
   }
+
+  /* Anchor offset for fixed header */
+  section[id],
+  [id] {
+    scroll-margin-top: 110px;
+  }
+
+  /* Nav underline hover/active */
+  .nav-underline {
+    position: relative;
+  }
+
+  .nav-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    background: currentColor;
+    transition: width 200ms ease;
+  }
+
+  .nav-underline:hover::after,
+  .nav-underline.active::after {
+    width: 100%;
+  }
 }
