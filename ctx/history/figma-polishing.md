@@ -19,8 +19,8 @@ Process
 - [x] Tutors chips: tiny icon alignments and letter-spacing (-1%)
 - [ ] Magazine left card: shadow strength (22.85 blur) and label type weight
 - [x] Magazine center image: size 294x299 precisely; overlay alpha
-- [ ] About card: arrow icon size (34.97), margins; text sizes (22.08)
-- [ ] Success cards: tile opacity 40%, corner radius 10.8
+- [x] About card: arrow icon size (34.97), margins; text sizes (22.08)
+- [x] Success cards: tile opacity 40%, corner radius 10.8
 - [ ] College right image container radii 130.27/21.54/21.63 precise
 - [ ] Footer: gradient image scale/position; “Information” casing and opacity
 

@@ -375,7 +375,11 @@ export default function Landing() {
             <div className="absolute left-[434.33px] top-[316.55px] w-[403.05px] h-[274.22px] rounded-[18.4px] bg-[#E9F6FA] transition-shadow duration-200 hover:shadow-[0_12px_32px_rgba(0,0,0,0.1)] group cursor-pointer select-none">
               <div className="flex items-center justify-between px-[17.48px] pt-[27.61px]">
                 <span className="text-[18.4px]">Explore our blogs</span>
-                <div className="w-[34.97px] h-[34.97px] bg-white rounded-full" />
+                <div className="w-[34.97px] h-[34.97px] bg-white rounded-full flex items-center justify-center">
+                  <span className="inline-block text-[#382E53] text-[17.07px] transition-transform duration-200 group-hover:translate-x-0.5">
+                    →
+                  </span>
+                </div>
               </div>
               <h3 className="px-[22.08px] mt-[55px] text-[22.08px] font-bold">
                 Offline or Online: What Works Best for Today’s Learners?
