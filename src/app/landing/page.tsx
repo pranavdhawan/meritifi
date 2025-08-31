@@ -41,7 +41,7 @@ export default function Landing() {
           style={{ height: 718 }}
         >
           <div className="flex-1 pl-20 pt-[211px] max-sm:pt-8 max-sm:px-6">
-            <h1 className="font-display text-[48px] leading-[1.2] text-black max-w-[621px]">
+            <h1 className="ds-heading-1 text-black max-w-[621px]">
               Ever Wondered About Wonder? The Kind That Doesn’t Stop At
               Classrooms And Time-tables.
             </h1>
@@ -93,7 +93,7 @@ export default function Landing() {
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 768 }}
       >
-        <h2 className="font-display text-[36px] leading-[1.2] text-center pt-[90px]">
+        <h2 className="ds-heading-2 text-center pt-[90px]">
           how it works
         </h2>
         <div className="mt-[94px] px-[60px] flex gap-[67px] max-sm:flex-col">
@@ -225,7 +225,7 @@ export default function Landing() {
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 595 }}
       >
-        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[60px]">
+        <h2 className="ds-heading-2 text-center pt-[60px]">
           Stay Organized, Stay Wondering
         </h2>
         <div className="mt-[92px] flex items-center gap-[110px] px-[136px] max-sm:flex-col max-sm:px-6">
@@ -277,7 +277,7 @@ export default function Landing() {
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 670 }}
       >
-        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[60px]">
+        <h2 className="ds-heading-2 text-center pt-[60px]">
           Our Best Teachers, Your Best Mentors
         </h2>
         <div className="mt-[140px] flex gap-[110px] px-[136px] max-sm:flex-col max-sm:px-6">
@@ -369,7 +369,7 @@ export default function Landing() {
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 822 }}
       >
-        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[52px]">
+        <h2 className="ds-heading-2 text-center pt-[52px]">
           Meritifi magazine
         </h2>
         <div className="relative mt-[161px] px-[79.5px] max-sm:px-6">
@@ -448,7 +448,7 @@ export default function Landing() {
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 670 }}
       >
-        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[60px]">
+        <h2 className="ds-heading-2 text-center pt-[60px]">
           When you Make Merit Yours
         </h2>
         <div className="mt-[60px] px-[80px] grid grid-cols-3 gap-6 max-sm:grid-cols-1 max-sm:gap-3 max-sm:px-6">
@@ -482,7 +482,7 @@ export default function Landing() {
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 703 }}
       >
-        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[35px]">
+        <h2 className="ds-heading-2 text-center pt-[35px]">
           Find Your Perfect College
         </h2>
         <div className="mt-[92px] flex gap-[44px] px-[148px] max-sm:flex-col max-sm:px-6">
