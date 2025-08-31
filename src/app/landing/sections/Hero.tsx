@@ -6,7 +6,7 @@ export function Hero() {
       <div className="flex gap-5 max-sm:flex-col-reverse">
         <div className="flex-1 pl-20 pt-[120px] max-sm:pt-8 max-sm:px-6">
           <h1 className="ds-heading-2 text-black max-w-[621px]">
-            Ever Wondered About Wonder? The Kind That Doesn't Stop At Classrooms
+            Ever Wondered About Wonder? The Kind That Doesn&apos;t Stop At Classrooms
             And Time-tables.
           </h1>
           <p className="ds-body-1 text-[#503CC9] max-w-[641px] mt-4">
