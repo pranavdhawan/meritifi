@@ -158,24 +158,42 @@ html {
     @apply font-sans text-ds-footer;
   }
 
-  .ds-btn-1 { @apply text-ds-btn1; }
+  .ds-btn-1 {
+    @apply text-ds-btn1;
+  }
 
-  .ds-btn-2 { @apply text-ds-btn2; }
+  .ds-btn-2 {
+    @apply text-ds-btn2;
+  }
 
-  .ds-btn-3 { @apply text-ds-btn3; }
+  .ds-btn-3 {
+    @apply text-ds-btn3;
+  }
 
   @media (max-width: 767px) {
-    .ds-heading-1 { @apply text-dsm-h1; }
+    .ds-heading-1 {
+      @apply text-dsm-h1;
+    }
 
-    .ds-heading-2 { @apply text-dsm-h2; }
+    .ds-heading-2 {
+      @apply text-dsm-h2;
+    }
 
-    .ds-btn-1 { @apply text-dsm-btn1; }
+    .ds-btn-1 {
+      @apply text-dsm-btn1;
+    }
 
-    .ds-btn-2 { @apply text-dsm-btn2; }
+    .ds-btn-2 {
+      @apply text-dsm-btn2;
+    }
 
-    .ds-text-1 { @apply text-dsm-text1; }
+    .ds-text-1 {
+      @apply text-dsm-text1;
+    }
 
-    .ds-text-2 { @apply text-dsm-text2; }
+    .ds-text-2 {
+      @apply text-dsm-text2;
+    }
   }
 
   /* Anchor offset for fixed header */

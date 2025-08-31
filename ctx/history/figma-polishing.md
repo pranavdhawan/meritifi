@@ -11,12 +11,12 @@ Process
 - [x] Header: logo wordmark spacing vs 40px spec; login button gradient stroke
 - [x] Hero: H1 exact size (Figma shows 48), line-height; CTA border gradients
 - [ ] Hero right image: bottom radius matches 229.39px; x/y position
-- [ ] How It Works: dashed connector stroke length, gap, and color (#868686)
+- [x] How It Works: dashed connector stroke length, gap, and color (#868686)
 - [x] How It Works chips: icon sizes inside 45px pill; purple text color (#957CFF)
 - [ ] Teacher card bg tone (#FFDA8C) and right radius values
 - [ ] Dashboard bubbles: exact positions (416px/ -4px) and shadows
-- [ ] Tutors cards: top image corner radius 60; divider opacity 0.7
-- [ ] Tutors chips: tiny icon alignments and letter-spacing (-1%)
+- [x] Tutors cards: top image corner radius 60; divider opacity 0.7
+- [x] Tutors chips: tiny icon alignments and letter-spacing (-1%)
 - [ ] Magazine left card: shadow strength (22.85 blur) and label type weight
 - [ ] Magazine center image: size 294x299 precisely; overlay alpha
 - [ ] About card: arrow icon size (34.97), margins; text sizes (22.08)

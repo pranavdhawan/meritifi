@@ -100,14 +100,16 @@ export default function Landing() {
             style={{ background: "rgba(254,254,254,0.7)" }}
           >
             {/* purple dots and lines per figma */}
-            <div
-              className="absolute left-[21.75px] top-[54.75px] w-px h-[63px]"
-              style={{ borderLeft: "1.5px dashed #868686" }}
-            />
-            <div
-              className="absolute left-[21.75px] top-[178.5px] w-[0.75px] h-[65.25px]"
-              style={{ borderLeft: "1.5px dashed #868686" }}
-            />
+            <div className="absolute left-[21.75px] top-[54.75px]">
+              <svg width="2" height="63" viewBox="0 0 2 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="1" y1="0" x2="1" y2="63" stroke="#868686" strokeWidth="1.5" strokeDasharray="6 6" />
+              </svg>
+            </div>
+            <div className="absolute left-[21.75px] top-[178.5px]">
+              <svg width="2" height="65.25" viewBox="0 0 2 65.25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="1" y1="0" x2="1" y2="65.25" stroke="#868686" strokeWidth="1.5" strokeDasharray="6 6" />
+              </svg>
+            </div>
             <div className="absolute left-[42px] top-[45px] w-[240px] h-[297.5px]">
               <div className="absolute left-0 top-0 flex items-center gap-[23px]">
                 <div className="w-[45px] h-[45px] rounded-[25.5px] border border-[#CFC7F1] flex items-center justify-center">
@@ -287,17 +289,17 @@ export default function Landing() {
               <div className="absolute left-[36px] top-[223px] flex items-center gap-5">
                 <div className="flex items-center gap-1">
                   <div className="w-[10.34px] h-[9.86px] bg-[#644BFC]" />
-                  <span className="text-[10.87px]">4.5</span>
+                  <span className="text-[10.87px] tracking-[-0.01em]">4.5</span>
                 </div>
                 <div className="w-px h-[19.53px] bg-black/70" />
                 <div className="flex items-center gap-1">
                   <div className="w-[13.22px] h-[8.5px] bg-[#644BFC]" />
-                  <span className="text-[10.87px]">{tutor.mode}</span>
+                  <span className="text-[10.87px] tracking-[-0.01em]">{tutor.mode}</span>
                 </div>
                 <div className="w-px h-[19.53px] bg-black/70" />
                 <div className="flex items-center gap-1">
                   <div className="w-[13.05px] h-[13.05px] bg-[#644BFC]" />
-                  <span className="text-[10.87px]">{tutor.area}</span>
+                  <span className="text-[10.87px] tracking-[-0.01em]">{tutor.area}</span>
                 </div>
               </div>
               <div className="absolute left-[36px] top-[273px] flex items-center gap-[11.3px]">
@@ -305,7 +307,7 @@ export default function Landing() {
                   <span className="text-[14.36px]">Sub: Physics & Maths</span>
                   <span className="text-[14.36px]">Classes: 1st-12th</span>
                 </div>
-                <div className="w-px h-[29.28px] bg-[#C1C1C1]" />
+                <div className="w-px h-[29.28px] bg-black/70" />
                 <div className="flex flex-col gap-[5.65px]">
                   <span className="text-[14.36px]">Exp: 7 Years</span>
                   <span className="text-[13.55px] text-[#51BD3B] font-semibold">
@@ -314,10 +316,10 @@ export default function Landing() {
                 </div>
               </div>
               <div className="absolute left-[36px] top-[345px] flex gap-3">
-                <button className="w-[109px] h-[30px] rounded bg-white border border-[#FC4BC7] text-[#FF5CDC] text-[16px]">
+                <button className="w-[109px] h-[30px] rounded bg-white border border-[#FC4BC7] text-[#FF5CDC] text-[16px] transition-colors duration-200 hover:bg-[#FFE5F3] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FC4BC7]">
                   Chat
                 </button>
-                <button className="w-[109px] h-[30px] rounded bg-[#FF95D3] border border-[#E049AE] text-white text-[16px]">
+                <button className="w-[109px] h-[30px] rounded bg-[#FF95D3] border border-[#E049AE] text-white text-[16px] transition duration-200 hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E049AE]">
                   View
                 </button>
               </div>
