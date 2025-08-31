@@ -20,12 +20,12 @@ export default function Landing() {
               </span>
             </div>
             <nav className="flex items-center gap-4 p-1">
-              <a className="ds-body-2">home</a>
-              <a className="ds-body-2">about us</a>
-              <a className="ds-body-2">teacher dashboard</a>
-              <a className="ds-body-2">student dashboard</a>
-              <a className="ds-body-2">magazine</a>
-              <a className="ds-body-2">college hunt</a>
+              <a href="#hero" className="ds-body-2">home</a>
+              <a href="#how-it-works" className="ds-body-2">about us</a>
+              <a href="#dashboard" className="ds-body-2">teacher dashboard</a>
+              <a href="#dashboard" className="ds-body-2">student dashboard</a>
+              <a href="#magazine" className="ds-body-2">magazine</a>
+              <a href="#college" className="ds-body-2">college hunt</a>
             </nav>
             <button className="px-6 py-2 border rounded-sm uppercase tracking-wide ds-btn-3">
               Log In
@@ -35,7 +35,7 @@ export default function Landing() {
       </section>
 
       {/* hero */}
-      <section className="w-[1440px] max-w-full mx-auto">
+      <section id="hero" className="w-[1440px] max-w-full mx-auto">
         <div className="flex gap-5" style={{ height: 718 }}>
           <div className="flex-1 pl-20 pt-[211px]">
             <h1 className="font-display text-[48px] leading-[1.2] text-black max-w-[621px]">
@@ -74,6 +74,7 @@ export default function Landing() {
 
       {/* how it works */}
       <section
+        id="how-it-works"
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 768 }}
       >
@@ -175,6 +176,7 @@ export default function Landing() {
 
       {/* dashboard */}
       <section
+        id="dashboard"
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 595 }}
       >
@@ -226,6 +228,7 @@ export default function Landing() {
 
       {/* top tutors */}
       <section
+        id="tutors"
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 670 }}
       >
@@ -313,6 +316,7 @@ export default function Landing() {
 
       {/* magazine */}
       <section
+        id="magazine"
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 822 }}
       >
@@ -383,6 +387,7 @@ export default function Landing() {
 
       {/* success stories */}
       <section
+        id="success"
         className="w-[1440px] max-w-full mx-auto"
         style={{ height: 670 }}
       >
@@ -415,7 +420,7 @@ export default function Landing() {
       </section>
 
       {/* college search */}
-      <section className="w-[1440px] max-w-full mx-auto" style={{ height: 703 }}>
+      <section id="college" className="w-[1440px] max-w-full mx-auto" style={{ height: 703 }}>
         <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[35px]">Find Your Perfect College</h2>
         <div className="mt-[92px] flex gap-[44px] px-[148px]">
           {/* left filters */}
@@ -452,7 +457,7 @@ export default function Landing() {
       </section>
 
       {/* footer */}
-      <footer className="w-[1440px] max-w-full mx-auto text-white" style={{ backgroundImage: 'url(/assets/footer-bg.png)', backgroundSize: 'cover' }}>
+      <footer id="footer" className="w-[1440px] max-w-full mx-auto text-white" style={{ backgroundImage: 'url(/assets/footer-bg.png)', backgroundSize: 'cover' }}>
         <div className="w-full px-10 pt-10">
           <div className="mx-10 rounded-[16px] bg-white/60 p-8 flex flex-col gap-24">
             <div className="flex gap-16">
