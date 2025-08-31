@@ -360,7 +360,7 @@ export default function Landing() {
           </div>
 
           {/* center card */}
-          <div className="absolute left-[868.67px] top-[2.76px] w-[294.46px] h-[299.07px] rounded-[18.4px] bg-black/20 overflow-hidden">
+          <div className="absolute left-[868.67px] top-[2.76px] w-[294px] h-[299px] rounded-[18.4px] bg-black/20 overflow-hidden">
             <Image
               src="/assets/mag-right.png"
               alt="right"

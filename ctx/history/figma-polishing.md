@@ -13,12 +13,12 @@ Process
 - [x] Hero right image: bottom radius matches 229.39px; x/y position
 - [x] How It Works: dashed connector stroke length, gap, and color (#868686)
 - [x] How It Works chips: icon sizes inside 45px pill; purple text color (#957CFF)
-- [ ] Teacher card bg tone (#FFDA8C) and right radius values
+- [x] Teacher card bg tone (#FFDA8C) and right radius values
 - [x] Dashboard bubbles: exact positions (416px/ -4px) and shadows
 - [x] Tutors cards: top image corner radius 60; divider opacity 0.7
 - [x] Tutors chips: tiny icon alignments and letter-spacing (-1%)
 - [ ] Magazine left card: shadow strength (22.85 blur) and label type weight
-- [ ] Magazine center image: size 294x299 precisely; overlay alpha
+- [x] Magazine center image: size 294x299 precisely; overlay alpha
 - [ ] About card: arrow icon size (34.97), margins; text sizes (22.08)
 - [ ] Success cards: tile opacity 40%, corner radius 10.8
 - [ ] College right image container radii 130.27/21.54/21.63 precise
