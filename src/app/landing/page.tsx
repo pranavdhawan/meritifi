@@ -191,6 +191,53 @@ export default function Landing() {
         </div>
       </section>
 
+      {/* magazine */}
+      <section className="w-[1440px] max-w-full mx-auto" style={{ height: 822 }}>
+        <h2 className="font-display text-[40px] leading-[1.2] text-center pt-[52px]">Meritifi magazine</h2>
+        <div className="relative mt-[161px] px-[79.5px]">
+          {/* feature card left */}
+          <div className="absolute left-[0px] top-[0px] w-[411.33px] h-[588.01px] rounded-[22.85px] shadow-[0px_22.85px_57.13px_rgba(18,17,39,0.08)] bg-white">
+            <img src="/assets/mag-left.png" alt="feature" className="w-[411.33px] h-[302.75px] rounded-t-[22.85px] object-cover" />
+            <div className="px-[18.28px] pt-[10px]">
+              <div className="text-[18.28px] text-[#464646]">ARTICLE</div>
+              <h3 className="mt-[42px] text-[22.85px] font-bold text-[#1A1A1A] leading-[1.4]">
+                Placerat sed pharetra interdum odio et tincidunt
+              </h3>
+              <p className="mt-[31px] text-[18.28px] leading-[1.8] text-[#464646]">
+                In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius phasellus blandit convallis.
+              </p>
+            </div>
+          </div>
+
+          {/* center card */}
+          <div className="absolute left-[868.67px] top-[2.76px] w-[294.46px] h-[299.07px] rounded-[18.4px] bg-black/20 overflow-hidden">
+            <img src="/assets/mag-right.png" alt="right" className="w-full h-full object-cover" />
+          </div>
+
+          {/* right column with about card */}
+          <div className="absolute left-[79.5px] top-[161px] w-[1280px] h-[590.77px]">
+            <div className="absolute left-[434.33px] top-[316.55px] w-[403.05px] h-[274.22px] rounded-[18.4px] bg-[#E9F6FA]">
+              <div className="flex items-center justify-between px-[17.48px] pt-[27.61px]">
+                <span className="text-[18.4px]">Explore our blogs</span>
+                <div className="w-[34.97px] h-[34.97px] bg-white rounded-full" />
+              </div>
+              <h3 className="px-[22.08px] mt-[55px] text-[22.08px] font-bold">Offline or Online: What Works Best for Today’s Learners?</h3>
+              <div className="px-[22.08px] mt-[50px] flex items-center gap-2 text-[#382E53]">
+                <span className="text-[11.38px]">Read more</span>
+                <div className="w-[17.07px] h-[17.07px]" />
+              </div>
+            </div>
+            <div className="absolute left-0 top-[316.55px] w-[412.25px] h-[274.22px] rounded-[18.4px] bg-[#F3E2C1]">
+              <div className="absolute left-[22.08px] top-[29.45px] w-[34.97px] h-[34.97px] bg-white rounded-full" />
+              <h3 className="absolute left-[75.46px] top-[28.53px] text-[18.4px] font-semibold w-[246.61px]">Smart Study Habits for Gen-Z Learners</h3>
+              <p className="absolute left-[24.85px] top-[98.46px] w-[272.38px] text-[18.4px] leading-[1.25]">
+                Bite-sized learning, productivity apps, and AI reminders—here’s how today’s students are getting more done in less time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* how it works */}
       <section className="w-[1440px] max-w-full mx-auto" />
 
