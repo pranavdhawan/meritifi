@@ -8,8 +8,8 @@ Process
 
 ## Visual differences to verify/fix
 
-- [ ] Header: logo wordmark spacing vs 40px spec; login button gradient stroke
-- [ ] Hero: H1 exact size (Figma shows 48), line-height; CTA border gradients
+- [x] Header: logo wordmark spacing vs 40px spec; login button gradient stroke
+- [x] Hero: H1 exact size (Figma shows 48), line-height; CTA border gradients
 - [ ] Hero right image: bottom radius matches 229.39px; x/y position
 - [ ] How It Works: dashed connector stroke length, gap, and color (#868686)
 - [ ] How It Works chips: icon sizes inside 45px pill; purple text color (#957CFF)

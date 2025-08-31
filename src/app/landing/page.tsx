@@ -8,7 +8,7 @@ export default function Landing() {
       <section className="w-[1440px] max-w-full mx-auto">
         <header className="w-full h-[100px] flex items-center">
           <div className="w-full flex items-center justify-between px-[140px]">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-[40px]">
               <Image
                 src="/assets/logo.png"
                 alt="Meritifi"
@@ -21,7 +21,13 @@ export default function Landing() {
               </span>
             </div>
             <LandingNav />
-            <button className="px-6 py-2 border rounded-sm uppercase tracking-wide ds-btn-3">
+            <button
+              className="px-6 py-2 border-2 border-transparent rounded-sm uppercase tracking-wide ds-btn-3 transition-shadow duration-200 hover:shadow-[0_0_18px_rgba(86,64,215,0.25)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5640D7]"
+              style={{
+                background:
+                  "linear-gradient(white,white) padding-box, linear-gradient(270deg,#2FBFCF 0%,#5640D7 53%,#F1C76F 100%) border-box",
+              }}
+            >
               Log In
             </button>
           </div>
@@ -40,10 +46,22 @@ export default function Landing() {
               Meritifi is for all those who want a little more than enough.
             </p>
             <div className="mt-[37px] flex items-center gap-10">
-              <button className="h-[70px] px-[30px] rounded-[11.66px] backdrop-blur-[18.66px] border-[4px] border-[#F1C76F] uppercase ds-btn-2 transition-shadow duration-200 hover:shadow-[0_0_24px_rgba(241,199,111,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F1C76F]">
+              <button
+                className="h-[70px] px-[30px] rounded-[11.66px] backdrop-blur-[18.66px] border-[4px] border-transparent uppercase ds-btn-2 transition-shadow duration-200 hover:shadow-[0_0_24px_rgba(241,199,111,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F1C76F]"
+                style={{
+                  background:
+                    "linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)) padding-box, linear-gradient(90deg,#F1C76F 0%,#DDCA21 50%,#F6FFB9 100%) border-box",
+                }}
+              >
                 Find a teacher
               </button>
-              <button className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-[#644BFC] uppercase ds-btn-2 transition-shadow duration-200 hover:shadow-[0_0_24px_rgba(100,75,252,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#644BFC]">
+              <button
+                className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-transparent uppercase ds-btn-2 transition-shadow duration-200 hover:shadow-[0_0_24px_rgba(100,75,252,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#644BFC]"
+                style={{
+                  background:
+                    "linear-gradient(white,white) padding-box, linear-gradient(90deg,#644BFC 0%,#503CCD 50%,#A69AFF 100%) border-box",
+                }}
+              >
                 start teaching
               </button>
             </div>
