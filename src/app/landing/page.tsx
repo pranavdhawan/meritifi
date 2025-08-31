@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { LandingNav } from "./Nav";
 
 export default function Landing() {
   return (
@@ -19,14 +20,7 @@ export default function Landing() {
                 meritfi
               </span>
             </div>
-            <nav className="flex items-center gap-4 p-1">
-              <a href="#hero" className="ds-body-2">home</a>
-              <a href="#how-it-works" className="ds-body-2">about us</a>
-              <a href="#dashboard" className="ds-body-2">teacher dashboard</a>
-              <a href="#dashboard" className="ds-body-2">student dashboard</a>
-              <a href="#magazine" className="ds-body-2">magazine</a>
-              <a href="#college" className="ds-body-2">college hunt</a>
-            </nav>
+            <LandingNav />
             <button className="px-6 py-2 border rounded-sm uppercase tracking-wide ds-btn-3">
               Log In
             </button>
