@@ -253,4 +253,16 @@ html {
   .nav-underline.active {
     font-weight: 600;
   }
+
+  /* Hide scrollbars utility */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
 }
