@@ -13,14 +13,15 @@ export function Dashboard() {
           </div>
         </div>
       </div>
-      
-      <div className="mt-[92px] flex items-center gap-[110px] px-[136px] max-sm:flex-col max-sm:px-6 max-sm:gap-16">
+
+      <div className="my-[92px] flex items-center gap-[110px] px-[136px] max-sm:flex-col max-sm:px-6 max-sm:gap-16">
         <div className="flex flex-col gap-16 w-[519px] max-sm:w-full">
           <div className="flex flex-col gap-6">
-            <button 
+            <button
               className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-transparent uppercase ds-btn-2 w-fit transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_24px_rgba(241,199,111,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F1C76F]"
               style={{
-                background: "linear-gradient(white,white) padding-box, linear-gradient(90deg,#F1C76F 0%,#DDCA21 50%,#F6FFB9 100%) border-box",
+                background:
+                  "linear-gradient(white,white) padding-box, linear-gradient(90deg,#F1C76F 0%,#DDCA21 50%,#F6FFB9 100%) border-box",
               }}
             >
               student dashboard
@@ -30,10 +31,11 @@ export function Dashboard() {
             </h3>
           </div>
           <div className="flex flex-col gap-6">
-            <button 
+            <button
               className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-transparent uppercase ds-btn-2 w-fit transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_24px_rgba(80,60,205,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#503CCD]"
               style={{
-                background: "linear-gradient(white,white) padding-box, linear-gradient(90deg,#503CCD 0%,#644BFC 50%,#A69AFF 100%) border-box",
+                background:
+                  "linear-gradient(white,white) padding-box, linear-gradient(90deg,#503CCD 0%,#644BFC 50%,#A69AFF 100%) border-box",
               }}
             >
               teacher dashboard
@@ -43,7 +45,7 @@ export function Dashboard() {
             </h3>
           </div>
         </div>
-        
+
         <div className="relative w-[340.77px] h-[388px] max-sm:w-[280px] max-sm:h-[320px]">
           {/* Decorative frame around the image - everything #F1C76F */}
           <div className="absolute left-[0px] top-[10px] w-[400px] h-[400px] rounded-[200px_200px_200px_60px] bg-[#F1C76F] shadow-[0px_8px_25px_rgba(241,199,111,0.25)] max-sm:w-[320px] max-sm:h-[320px] max-sm:left-[0px] max-sm:top-[8px]">
@@ -60,7 +62,7 @@ export function Dashboard() {
           </div>
         </div>
       </div>
-      
+
       {/* Floating decorative elements - now positioned around the entire Dashboard section */}
       {/* <div className="relative">
         <div
@@ -91,4 +93,3 @@ export function Dashboard() {
     </section>
   );
 }
-

@@ -13,11 +13,17 @@ export default function Landing() {
     <main className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <hr className="w-full border-t border-gray-200 mt-12" />
       <HowItWorks />
       <Dashboard />
+      <hr className="w-full border-t border-gray-200" />
       <Tutors />
+      <hr className="w-full border-t border-gray-200" />
       <Magazine />
+      <hr className="w-full border-t border-gray-200" />
+      <hr className="w-full border-t border-gray-200" />
       <Success />
+      <hr className="w-full border-t border-gray-200" />
       <College />
       <Footer />
     </main>

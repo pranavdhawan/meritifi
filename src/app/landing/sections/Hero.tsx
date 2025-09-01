@@ -1,13 +1,15 @@
 import Image from "next/image";
+import FloatingOrbs from "@/components/FloatingOrbs";
 
 export function Hero() {
   return (
     <section id="hero" className="w-[1440px] max-w-full mx-auto relative">
+      <FloatingOrbs className="absolute inset-0" />
       <div className="flex gap-5 max-sm:flex-col-reverse">
         <div className="flex-1 pl-20 pt-[120px] max-sm:pt-8 max-sm:px-6">
           <h1 className="ds-heading-2 text-black max-w-[621px]">
-            Ever Wondered About Wonder? The Kind That Doesn&apos;t Stop At Classrooms
-            And Time-tables.
+            Ever Wondered About Wonder? The Kind That Doesn&apos;t Stop At
+            Classrooms And Time-tables.
           </h1>
           <p className="ds-body-1 text-[#503CC9] max-w-[641px] mt-4">
             At Meritifi, we support your education journey outside the schools
@@ -16,7 +18,8 @@ export function Hero() {
             <button
               className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-transparent uppercase ds-btn-2 w-fit transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_24px_rgba(241,199,111,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F1C76F]"
               style={{
-                background: "linear-gradient(white,white) padding-box, linear-gradient(90deg,#F1C76F 0%,#DDCA21 50%,#F6FFB9 100%) border-box",
+                background:
+                  "linear-gradient(white,white) padding-box, linear-gradient(90deg,#F1C76F 0%,#DDCA21 50%,#F6FFB9 100%) border-box",
               }}
             >
               find a teacher
@@ -35,7 +38,8 @@ export function Hero() {
             <button
               className="h-[70px] px-[30px] rounded-[11.66px] border-[2px] border-[#28B9CE] uppercase ds-btn-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(40,185,206,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#28B9CE] w-fit"
               style={{
-                background: "linear-gradient(white,white) padding-box, linear-gradient(90deg,#28B9CE 0%,#2FBFCF 50%,#A69AFF 100%) border-box",
+                background:
+                  "linear-gradient(white,white) padding-box, linear-gradient(90deg,#28B9CE 0%,#2FBFCF 50%,#A69AFF 100%) border-box",
               }}
             >
               Start a Chat
