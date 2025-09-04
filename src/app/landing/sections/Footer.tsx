@@ -24,7 +24,11 @@ export function Footer() {
                   alt="logo"
                 />
                 <span className="font-display text-[40px] text-[#010101]">
-                  meritfi
+                <div className="relative text-[40px] capitalize font-balsamiq-sans text-center text-[#644bfc]">
+              <span>me</span>
+              <span className="text-[#f1c76f]">ri</span>
+              <span>tfi</span>
+            </div>
                 </span>
               </div>
             </div>
@@ -81,8 +85,8 @@ export function Footer() {
 
             {/* Right: Contact */}
             <div className="flex flex-col items-start gap-2 xl:items-end">
-              <div className="rounded bg-gradient-to-r from-[#F1C76F] via-[#83DFEA] to-[#644BFC] p-[2px]">
-                <button className="px-[22px] py-[8px] rounded bg-transparent text-[#010101]">
+              <div className="rounded-lg bg-gradient-to-r from-[#F1C76F] via-[#83DFEA] to-[#644BFC] p-[2px]">
+                <button className="px-8 py-3 rounded-lg bg-transparent text-[#010101] font-semibold text-sm hover:bg-white/10 transition-all duration-300">
                   Contact Us
                 </button>
               </div>

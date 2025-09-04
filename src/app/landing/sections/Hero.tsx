@@ -6,8 +6,8 @@ export function Hero() {
     <section id="hero" className="w-[1440px] max-w-full mx-auto relative">
       <FloatingOrbs className="absolute inset-0" />
       <div className="flex gap-5 max-sm:flex-col-reverse">
-        <div className="flex-1 pl-20 pt-[120px] max-sm:pt-8 max-sm:px-6">
-          <h1 className="ds-heading-2 text-black max-w-[621px]">
+        <div className="flex-1 pl-32 pt-[220px] max-sm:pt-8 max-sm:px-6">
+          <h1 className="ds-heading-2 text-black max-w-[621px] leading-tight font-normal">
             Ever Wondered About Wonder? The Kind That Doesn&apos;t Stop At
             Classrooms And Time-tables.
           </h1>
@@ -36,7 +36,7 @@ export function Hero() {
           </div>
           <div className="mt-[37px] flex justify-center pr-20">
             <button
-              className="h-[70px] px-[30px] rounded-[11.66px] border-[2px] border-[#28B9CE] uppercase ds-btn-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(40,185,206,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#28B9CE] w-fit"
+              className="h-[70px] px-[30px] rounded-[11.66px] border-[4px] border-transparent uppercase ds-btn-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(40,185,206,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#28B9CE] w-fit"
               style={{
                 background:
                   "linear-gradient(white,white) padding-box, linear-gradient(90deg,#28B9CE 0%,#2FBFCF 50%,#A69AFF 100%) border-box",
@@ -46,7 +46,7 @@ export function Hero() {
             </button>
           </div>
         </div>
-        <div className="w-[478.28px] ml-[80px] rounded-b-[229.39px] overflow-hidden max-sm:ml-0 max-sm:self-center">
+        <div className="w-[478.28px] ml-[20px] rounded-b-[229.39px] overflow-hidden max-sm:ml-0 max-sm:self-center">
           <Image
             src="/assets/hero-cover.png"
             alt="Hero"

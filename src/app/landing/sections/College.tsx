@@ -3,9 +3,16 @@ import Image from "next/image";
 export function College() {
   return (
     <section id="college" className="w-full max-w-full relative px-24">
-      <h2 className="ds-heading-2 text-center pt-[35px]">
-        Find Your Perfect College
-      </h2>
+      {/* <h2 className="ds-heading-2 text-center pt-[35px]"> */}
+      <div className="flex justify-center mb-16">
+        <div className="relative">
+          <div className="bg-[#503CC9] px-8 py-4 rounded-[20px] shadow-lg">
+            <h2 className="text-[#CFC7F1] text-4xl md:text-5xl font-bold font-['Balsamiq_Sans'] capitalize leading-tight text-center">
+              Find Your Perfect College
+            </h2>
+          </div>
+        </div>
+      </div>
 
       <div className="my-24 grid grid-cols-1 lg:grid-cols-[529px_1fr] gap-[44px] px-[148px] max-sm:px-6">
         <div className="flex flex-col gap-10">
@@ -26,10 +33,10 @@ export function College() {
             ))}
           </div>
           <button
-            className="w-[220px] h-[60px] rounded-[10px] uppercase ds-btn-3 border-[2px] backdrop-blur-md"
+            className="w-[220px] h-[60px] rounded-[10px] uppercase text-[28px] border-[2px] backdrop-blur-md"
             style={{ borderColor: "rgba(241,199,111,1)" }}
           >
-            search now
+            Go
           </button>
         </div>
 
@@ -43,8 +50,8 @@ export function College() {
               className="object-cover"
             />
           </div>
-          <div className="w-4/5 rounded-[20.25px] bg-[#E9F6FA] px-[22.75px] text-center py-16 ">
-            <p className="text-[19.15px] leading-[1.2]">
+          <div className="w-4/5 rounded-[20.25px] bg-[#E9F6FA] px-[22.75px] text-center py-16">
+            <p className="text-[19.15px] leading-[1.2] px-10 italic">
               Keep Your Learning Streak Strong! Search, compare and choose
               colleges best-suited for you.
             </p>

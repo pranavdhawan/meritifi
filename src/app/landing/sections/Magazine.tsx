@@ -3,7 +3,16 @@ import Image from "next/image";
 export function Magazine() {
   return (
     <section id="magazine" className="w-[1440px] max-w-full mx-auto mb-12">
-      <h2 className="ds-heading-2 text-center pt-[52px]">Meritifi magazine</h2>
+      {/* <h2 className="ds-heading-2 text-center pt-[52px]">Meritifi magazine</h2> */}
+      <div className="flex justify-center mb-16">
+        <div className="relative">
+          <div className="bg-[#FFF3FA] px-8 py-4 rounded-[20px] shadow-lg">
+            <h2 className="text-[#76DFFF] text-4xl md:text-5xl font-bold font-['Balsamiq_Sans'] capitalize leading-tight text-center">
+              Meritifi magazine
+            </h2>
+          </div>
+        </div>
+      </div>
       <div className="flex gap-9 mt-[40px] px-[79.5px] max-sm:px-6 max-sm:flex-col">
         {/* Left section - 2/3 width */}
         <div className="w-2/3 flex flex-col gap-9 max-sm:w-full">

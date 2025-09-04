@@ -53,7 +53,16 @@ export function Success() {
 
   return (
     <section id="success" className="w-[1440px] max-w-full mx-auto my-24">
-      <h2 className="ds-heading-2 text-center">When you Make Merit Yours</h2>
+      {/* <h2 className="ds-heading-2 text-center">When you Make Merit Yours</h2> */}
+      <div className="flex justify-center mb-16">
+        <div className="relative">
+          <div className="bg-[#E6FFFF] px-8 py-4 rounded-[20px] shadow-lg">
+            <h2 className="text-[#FFA85C] text-4xl md:text-5xl font-bold font-['Balsamiq_Sans'] capitalize leading-tight text-center">
+              When you Make Merit Yours
+            </h2>
+          </div>
+        </div>
+      </div>
 
       <div className="mt-[40px] flex flex-col gap-6">
         <div
@@ -84,15 +93,15 @@ export function Success() {
                     />
                   </div>
                   <div className="mt-6 flex-1">
-                    <p className="ds-body-2 text-[#413D45] tracking-[-0.02em]">
+                    <p className="text-[24px] text-[#413D45] tracking-[-0.02em] leading-relaxed">
                       {it.quote}
                     </p>
                   </div>
                   <div className="pt-4">
-                    <p className="ds-notes font-medium text-[#67646A]">
+                    <p className="text-[16px] font-medium text-[#67646A]">
                       {it.author}
                     </p>
-                    <p className="ds-footer text-[#413D45]">{it.context}</p>
+                    <p className="text-[12px] text-[#413D45]">{it.context}</p>
                   </div>
                 </div>
               ))}
