@@ -3,7 +3,7 @@ import FloatingOrbs from "@/components/FloatingOrbs";
 
 export function Hero() {
   return (
-    <section id="hero" className="w-[1440px] max-w-full mx-auto relative">
+    <section id="hero" className="w-[1440px] max-w-full mx-auto relative z-[5]">
       <FloatingOrbs className="absolute inset-0" />
       <div className="flex gap-5 max-sm:flex-col-reverse">
         <div className="flex-1 pl-32 pt-[220px] max-sm:pt-8 max-sm:px-6">
@@ -52,7 +52,7 @@ export function Hero() {
             alt="Hero"
             width={478}
             height={718}
-            className="object-cover"
+            className="object-cover -z-10 relative"
             priority
           />
         </div>

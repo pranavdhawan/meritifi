@@ -8,7 +8,7 @@ export function Footer() {
       style={{
         backgroundImage: "url(/assets/footer-bg.png)",
         backgroundSize: "cover",
-        backgroundPosition: "center top",
+        backgroundPosition: "center",
       }}
     >
       <div className="w-full px-10 pt-10 max-sm:px-6">
@@ -24,11 +24,11 @@ export function Footer() {
                   alt="logo"
                 />
                 <span className="font-display text-[40px] text-[#010101]">
-                <div className="relative text-[40px] capitalize font-balsamiq-sans text-center text-[#644bfc]">
-              <span>me</span>
-              <span className="text-[#f1c76f]">ri</span>
-              <span>tfi</span>
-            </div>
+                  <div className="relative text-[40px] capitalize font-balsamiq-sans text-center text-[#644bfc]">
+                    <span>me</span>
+                    <span className="text-[#f1c76f]">ri</span>
+                    <span>tfi</span>
+                  </div>
                 </span>
               </div>
             </div>
@@ -36,7 +36,7 @@ export function Footer() {
             {/* Middle: Information + Follow us (stacked) */}
             <div className="flex flex-col gap-11 max-w-[660px]">
               <div className="flex flex-col gap-6">
-                <span className="font-display uppercase tracking-[0.04em] opacity-60 text-[#010101]">
+                <span className="font-display uppercase tracking-[0.04em] opacity-80 text-[#010101]">
                   Information
                 </span>
                 <nav className="flex flex-wrap items-center gap-6 text-[#010101]">
@@ -44,26 +44,26 @@ export function Footer() {
                     Home
                   </a>
                   <a href="#" aria-label="About us">
-                    about us
+                    About Us
                   </a>
                   <a href="#" aria-label="Teacher dashboard">
-                    teacher dashboard
+                    Teacher Dashboard
                   </a>
                   <a href="#" aria-label="Student dashboard">
-                    student dashboard
+                    Student Dashboard
                   </a>
                   <a href="#" aria-label="Magazine">
-                    magazine
+                    Magazine
                   </a>
                   <a href="#" aria-label="College hunt">
-                    college hunt
+                    College Hunt
                   </a>
                 </nav>
               </div>
 
               <div className="flex flex-col gap-6">
-                <span className="font-display uppercase tracking-[0.04em] opacity-60 text-[#010101]">
-                  follow us
+                <span className="font-display uppercase tracking-[0.04em] font-bold opacity-60 text-[#010101]">
+                  Follow Us
                 </span>
                 <div className="flex items-center gap-[22px]">
                   <Image
@@ -85,8 +85,8 @@ export function Footer() {
 
             {/* Right: Contact */}
             <div className="flex flex-col items-start gap-2 xl:items-end">
-              <div className="rounded-lg bg-gradient-to-r from-[#F1C76F] via-[#83DFEA] to-[#644BFC] p-[2px]">
-                <button className="px-8 py-3 rounded-lg bg-transparent text-[#010101] font-semibold text-sm hover:bg-white/10 transition-all duration-300">
+              <div className="rounded-xl bg-gradient-to-r from-[#F1C76F] via-[#83DFEA] to-[#644BFC] p-[2px]">
+                <button className="px-8 py-3 rounded-lg bg-[#F2F1EA] text-[#010101] font-semibold text-sm hover:bg-white/10 transition-all duration-300">
                   Contact Us
                 </button>
               </div>
@@ -102,11 +102,13 @@ export function Footer() {
       {/* Bottom bar */}
       <div className="w-full py-6">
         <div className="mx-auto w-[1349px] max-w-full px-10 max-sm:px-6">
-          <div className="flex flex-col items-center justify-between gap-2 md:flex-row">
-            <span className="text-white/90 max-sm:text-xs">
-              Privacy policy | terms of use | refund policy
+          <div className="flex flex-col items-center justify-between gap-2">
+            <span className="text-black/90 max-sm:text-xs">
+              Privacy Policy | Terms Of Use | Refund Policy
             </span>
-            <span className="max-sm:text-xs">© 2023 — Copyright</span>
+            <span className="text-black/90 max-sm:text-xs">
+              © 2023 — Copyright
+            </span>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const LINKS = [
   { id: "hero", label: "Home" },
@@ -12,28 +12,7 @@ const LINKS = [
 ];
 
 export function LandingNav() {
-  const [active, setActive] = useState<string>("hero");
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActive(entry.target.id);
-          }
-        });
-      },
-      { rootMargin: "-50% 0px -50% 0px", threshold: 0 }
-    );
-
-    LINKS.forEach((l) => {
-      const el = document.getElementById(l.id);
-      if (el) observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <div className="flex items-center">
@@ -54,11 +33,7 @@ export function LandingNav() {
             key={`${l.label}-${idx}`}
             href={`#${l.id}`}
             onClick={() => setOpen(false)}
-            className={`ds-body-2 transition-all no-underline ${
-              active === l.id
-                ? "font-semibold text-white bg-[#6B55FC] rounded-md px-3 py-1.5 shadow-sm"
-                : "text-[#555] hover:text-black"
-            }`}
+            className="ds-body-2 transition-all no-underline text-[#555] px-3 py-1.5 rounded-md hover:text-[#6B55FC] hover:bg-[#6B55FC]/10"
           >
             {l.label}
           </a>

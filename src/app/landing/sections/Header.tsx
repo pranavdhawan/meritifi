@@ -22,9 +22,9 @@ export function Header() {
   return (
     <section className="w-[1440px] max-w-full mx-auto">
       <header
-        className={`h-[100px] flex items-center z-50 transition-all duration-300 whitespace-nowrap ${
+        className={`h-[100px] flex items-center z-50 transition-all duration-300 whitespace-nowrap backdrop-blur-md ${
           isFloating
-            ? "fixed inset-x-0 top-8 w-full rounded-xl border border-white/30 bg-white/60 backdrop-blur-xl shadow-lg transform scale-x-[0.985]"
+            ? "fixed inset-x-0 top-8 w-full rounded-xl border border-white/30 bg-white/60 shadow-lg transform scale-x-[0.985]"
             : "fixed inset-x-0 top-0 w-full bg-transparent"
         }`}
       >
